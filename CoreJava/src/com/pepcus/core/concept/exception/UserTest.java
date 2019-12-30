@@ -11,7 +11,7 @@ public class UserTest {
     try {
       
       // Setup User Data, Parameters are : userId, userName, age
-      User user = UserService.setupUserData(5, "John", 1);
+      User user = UserService.setupUserData(null, "John", 5);
       
       // Validate User Data
       UserService.validateUserData(user);
@@ -29,7 +29,5 @@ public class UserTest {
     }
   }
 
-  
-  
 
 }
